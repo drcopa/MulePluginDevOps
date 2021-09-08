@@ -142,8 +142,8 @@
 										<username>${artifact_username}</username>
 										<password>${artifact_password}</password>
 										<excludePatterns>*-tests.jar</excludePatterns>
-										<repoKey>mule-poc</repoKey>
-										<snapshotRepoKey>mule-poc</snapshotRepoKey>
+										<repoKey>${artifact_name}</repoKey>
+										<snapshotRepoKey>${artifact_name}</snapshotRepoKey>
 									</publisher>
 									<buildInfo>
 										<buildName>plugin-demo</buildName>
